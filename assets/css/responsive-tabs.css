@@ -1,0 +1,151 @@
+	
+/* Tab atyle 7
+ ------------------------------ */
+.tab-navbar-main-style-7 {
+	width: 100%;
+	text-align: center;
+	background-color:#eb6452;
+}
+
+.tabstyle-7 .responsive-tabs {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style-type: none;
+	position: relative;
+	background-color: #eb6452;
+}
+.tabstyle-7 .responsive-tabs li {
+	width:33%;
+	text-align: center;
+	line-height: 50px;
+	padding: 0;
+	background-color: #eb6452;
+	float: left;
+}
+
+.tabstyle-7 .responsive-tabs li a {
+	display: block;
+	padding: 15px 6px;
+	text-align: center;
+	line-height: 23px;
+	font-size:20px;
+	font-weight:normal;
+	text-transform:uppercase;
+	text-decoration: none;
+	border-right:1px solid #e4e4e4;
+	transition: all 0.3s ease-out 0s;
+}
+.tabstyle-7 .responsive-tabs.bg-white li a {
+	background-color:#fff;
+}
+.tabstyle-7 .responsive-tabs li a:hover, .tabstyle-7 .responsive-tabs li.active, .tabstyle-7 .responsive-tabs li.active a {
+	color: #eb6452;
+	background-color: #fff;
+	box-shadow: 0 5px 5px  rgba(0, 0, 0, 0.5);
+}
+
+.tabstyle-7 .responsive-tabs-content {
+	margin-bottom: 20px;
+}
+.tabstyle-7 .responsive-tab-title p strong{
+	font-size:24px;
+	color:#101010;
+	border-bottom:1px solid #101010;
+	}
+
+.tabstyle-7 .responsive-tab-title{
+	margin-bottom:50px;
+	}	
+.tabstyle-7 .responsive-tabs li a.no-border {
+	border-right:none;
+}	
+	
+
+
+
+@media only screen and (max-width: 640px) {
+.tabs-left2-holder .responsive-tabs li a .arrow-right {
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: -17px;
+    top: 42px;
+    opacity: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #fff;
+}
+.tab-content-style-7 {
+    margin-top: -60px;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+.tabs-left2-holder .responsive-tabs-content {
+    padding: 60px 50px;
+}
+.ttitle strong {
+    font-size: 20px;
+}
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 360px) {
+
+.tab-content-holder {
+    padding:0px;
+
+}
+.tabstyle-5 .responsive-tabs li {
+    border-left: 1px solid #ebebeb;
+}
+.tabstyle-5-feature-box-2 {
+    padding: 35px;
+}
+.tabs-left1-holder .feature-box {
+    padding: 35px 40px;
+}
+.tabs-left2-holder .responsive-tabs-content {
+    padding: 30px 30px;
+}
+.ce4-feature-box-14 .inner-box .img-main {
+    top: 199px;
+}
+.tab-content-holder-9 {
+    padding: 0px 30px 30px 30px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 320px) {
+.tab-content-style-4 {
+    padding: 0 0 0 0;
+}
+
+
+
+}
+

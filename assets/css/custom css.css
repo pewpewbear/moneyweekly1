@@ -1,0 +1,81 @@
+.fixed-icon-area {
+	position: fixed;
+	bottom: 1vw;
+	right: 1vw;
+	z-index: 9999;
+}
+
+.panel-title1 {
+	background-color: #fff;
+	padding: 15px;
+	border-bottom: 1px dashed gray;
+	font-size: 18px; 
+	font-weight: bold;
+ }
+ 
+ .panel-title2 {
+	background-color: #fff;
+	padding: 15px;
+	border-bottom: 1px dashed gray;
+	font-size: 18px; 
+	font-weight: bold;
+ }
+ 
+ .panel-title3 {
+	background-color: #fff;
+	padding: 15px;
+	border-bottom: 1px dashed gray;
+	font-size: 18px; 
+	font-weight: bold;
+ }
+ .panel-title4 {
+	background-color: #fff;
+	padding: 15px;
+	border-bottom: 1px dashed gray;
+	font-size: 18px; 
+	font-weight: bold;
+ }
+ .panel-title5 {
+	background-color: #fff;
+	padding: 15px;
+	border-bottom: 1px dashed gray;
+	font-size: 18px; 
+	font-weight: bold;
+ }
+ .panel-title6 {
+	background-color: #fff;
+	padding: 15px;
+	border-bottom: 1px dashed gray;
+	font-size: 18px; 
+	font-weight: bold;
+ }
+ 
+ .align-title{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: rgba(234, 197, 93, 0.8);
+ }
+
+ .panel-title:hover {
+	opacity: 0.8; /* 調整為您想要的透明度值 */
+ }
+
+ .nav-item {
+	margin-right: -50px;
+ }
+.words{
+	padding-left: 805px;
+	padding-top: 650px;
+	line-height: 2;
+}
+.words-mobile{
+	font-size: 13px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 160px;
+}
+.article-image{
+	width: 237px !important;
+}
