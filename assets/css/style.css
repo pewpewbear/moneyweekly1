@@ -102,7 +102,24 @@ body{
     padding-top: 59px;
 }
 
-/*名人專訪*/
+/*理周島民PTT*/
+.slider-con-example{
+    position: relative;
+}
+.slider-con-example::after {
+    background-image: url(../image/banner-overlay-img-example.png) no-repeat center  !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+  }
+.slider-con-example{
+    padding-top: 150px;
+}
+
+/*名人幸福知識島*/
 .slider-con-celebrity{
     position: relative;
 }
@@ -118,11 +135,29 @@ body{
 .slider-con-celebrity{
     padding-top: 100px;
 }
-/*名人跟你說*/
-.slider-con-celebrity{
+
+/*幸福理財遊戲島*/
+.slider-con-game{
     position: relative;
 }
-.slider-con-celebrity::after {
+.slider-con-game::after {
+    background-image: url(../image/banner-overlay-img-game.png) no-repeat center  !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+  }
+.slider-con-game{
+    padding-top: 100px;
+}
+
+/*幸福共學島(一)*/
+.slider-con-video{
+    position: relative;
+}
+.slider-con-video::after {
     background-image: url(../image/banner-overlay-img-video.png) no-repeat center  !important;
     background-size: cover;
     background-repeat: no-repeat;
@@ -131,10 +166,10 @@ body{
     position:absolute;
     top: 0;
   }
-.slider-con-celebrity{
-    padding-top: 100px;
+.slider-con-video{
+    padding-top: 500px;
 }
-/*精選文章*/
+/*幸福共學島(二)*/
 .slider-con-article{
     position: relative;
 }
@@ -150,6 +185,118 @@ body{
 .slider-con-article{
     padding-top: 100px;
 }
+
+.trending-topic .trending-topic-main .trending-topic-item {
+    position: relative; }
+    .trending-topic .trending-topic-main .trending-topic-item::before {
+      content: '';
+      background: #d2113933;
+      position: absolute;
+      left: -8px;
+      bottom: -8px;
+      width: 50%;
+      height: 50%; }
+    .trending-topic .trending-topic-main .trending-topic-item .trending-topic-image {
+      position: relative;
+      overflow: hidden; }
+      .trending-topic .trending-topic-main .trending-topic-item .trending-topic-image img {
+        transition: all ease 0.5s; }
+      .trending-topic .trending-topic-main .trending-topic-item .trending-topic-image .trending-topic-content h4 {
+        bottom: 15px;
+        left: 0px; }
+        .trending-topic .trending-topic-main .trending-topic-item .trending-topic-image .trending-topic-content h4::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 0;
+          background: #ff1949;
+          transition: all ease 0.5s; }
+        .trending-topic .trending-topic-main .trending-topic-item .trending-topic-image .trending-topic-content h4 a {
+          position: relative; }
+      .trending-topic .trending-topic-main .trending-topic-item .trending-topic-image:hover h4:before {
+        transition: all ease 0.5s;
+        width: 100%; }
+      .trending-topic .trending-topic-main .trending-topic-item .trending-topic-image:hover {
+        cursor: pointer; }
+        .trending-topic .trending-topic-main .trending-topic-item .trending-topic-image:hover h4 a {
+          color: #fff !important;
+          transition: all ease 0.5s; }
+        .trending-topic .trending-topic-main .trending-topic-item .trending-topic-image:hover img {
+          transform: scale(1.2) rotate(10deg);
+          transition: all ease 0.5s; }
+  
+  .trending-topic-counter::before {
+    content: '';
+    background: #f1f1f1;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    left: 0;
+    top: 0; }
+  .trending-topic-counter .trending-topic-counter-inner {
+    width: 65%;
+    margin: 0 auto;
+    padding: 40px 40px 100px; }
+    .trending-topic-counter .trending-topic-counter-inner .section-title::before {
+      display: none; }
+    .trending-topic-counter .trending-topic-counter-inner .section-title h2 {
+      font-weight: 700; }
+    .trending-topic-counter .trending-topic-counter-inner .counter-item {
+      padding: 20px !important;
+      border: 1px solid #f1f1f1a6; }
+  
+  .why-us .why-us-item {
+    padding: 24px 20px 33px;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 0 15px #cccccc37;
+    transition: all ease-in-out 0.5s;
+    overflow: hidden;
+    position: relative;
+    transform: translateY(0px); }
+    .why-us .why-us-item::after {
+      content: '';
+      background: #ff1949;
+      height: 2px;
+      width: 0%;
+      bottom: 0;
+      left: 0;
+      transition: all 0.5s;
+      position: absolute;
+      transition: all ease-in-out 0.5s; }
+    .why-us .why-us-item .why-us-icon [class^="flaticon-"]::before, .why-us .why-us-item .why-us-icon i {
+      font-size: 58px; }
+    .why-us .why-us-item:hover {
+      transform: translateY(-5px);
+      transition: all ease-in-out 0.5s;
+      cursor: pointer; }
+      .why-us .why-us-item:hover::after {
+        width: 100%;
+        transition: all ease-in-out 0.5s; }
+      .why-us .why-us-item:hover h4 a {
+        color: #ff1949; }
+  
+  @media (max-width: 1100px) {
+    .trending-topic-counter .trending-topic-counter-inner {
+      width: 86%;
+      padding: 40px 40px 80px; } }
+  @media (max-width: 991px) {
+    .trending-topic-counter {
+      padding-bottom: 0; }
+      .trending-topic-counter .trending-topic-counter-inner {
+        padding: 40px;
+        margin: 0 auto 0 !important; }
+        .trending-topic-counter .trending-topic-counter-inner .car-image {
+          width: 100%;
+          position: relative;
+          bottom: inherit; } }
+  @media (max-width: 767px) {
+    .trending-topic .trending-topic-item {
+      text-align: center; }
+      .trending-topic .trending-topic-item:before {
+        display: none; } }
+  /* ========================================= */
 /*大哉問*/
 .slider-con-question{
     position: relative;
