@@ -31,6 +31,12 @@
        gtag('js', new Date());
        gtag('config', 'G-JPPWSCTQGX');
    </script>
+   <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+   />
+ 
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
    <link rel="stylesheet" href="assets/css/animate.css">
    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -82,11 +88,14 @@
                                                 <a class="nav-link fs-5 fw-bold px-3" href="#04">幸福理財遊戲島</a>
                                              </li>
                                              <!---註解：下拉式選單-->
-                                             <li class="nav-item">
-                                                <a class="nav-link fs-5 fw-bold px-3" href="#05">幸福共學島(一)</a>
-                                             </li>
-                                             <li class="nav-item">
-                                                <a class="nav-link fs-5 fw-bold px-3" href="#06">幸福共學島(二)</a>
+                                             <li class="nav-item dropdown">
+                                                <a class="nav-link fs-5 fw-bold px-3 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                   幸福共學島
+                                                </a>
+                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                  <li><a class="dropdown-item" href="#05">幸福共學島(一)</a></li>
+                                                  <li><a class="dropdown-item" href="#06">幸福共學島(二)</a></li>
+                                                </ul>
                                              </li>
                                              <!---註解：下拉式選單完-->
                                           </ul>
@@ -117,7 +126,7 @@
    <!---理周島民PTT-->
    <div id="02"></div>
    <section>
-      <div class="slider-con-example w-100" style="background-image: url('assets/image/banner-overlay-img-example.png');  background-size: 100vw auto;  width: auto; height: 960px;">
+      <div class="slider-con-example w-100" style="background-image: url('assets/image/banner-overlay-img-example.png');  background-size: 100vw auto;  width: auto; height: 66.6vw;">
          <div class="container">
             <div class="Cyber-Security-right-heading-con d-flex flex-column align-items-center text-center">
                <img src="assets/image/lil_banner.jpg" alt="理周島民PTT" class="img-fluid" style="max-width: 300px;"><br>
@@ -171,7 +180,7 @@
     <!---名人幸福知識島-->
     <div id="03"></div>
     <section>
-       <div class="slider-con-celebrity w-100" style="background-image: url('assets/image/banner-overlay-img-celebrity.png');  background-size: 100vw auto;  width: auto; height: 960px;">
+       <div class="slider-con-celebrity w-100" style="background-image: url('assets/image/banner-overlay-img-celebrity.png');  background-size: 100vw auto;  width: auto; height: 66.6vw;">
           <div class="container">
              <div class="Cyber-Security-right-heading-con d-flex flex-column align-items-center text-center">
                 <img src="assets/image/lil_banner2.jpg" alt="名人幸福知識島" class="img-fluid" style="max-width: 300px;"><br>
@@ -179,7 +188,7 @@
                 <h4>所以怎麼做呢？投資理財老師來解答！
                 </h4>
              </div>
-             <div style="height: 80px;"></div>
+             <div style="height: 5.56vw;"></div>
              <div class="row wow fadeInUp d-flex justify-content-center align-items-center">
                 <div class="col-lg-3 col-md-6 col-12">
                    <div class="partner-box text-center mb-lg-0 mb-4">
@@ -225,7 +234,7 @@
     <!---幸福理財遊戲島-->
     <div id="04"></div>
     <section>
-      <div class="slider-con-game w-100" style="background-image: url('assets/image/banner-overlay-img-game.png');  background-size: 100vw auto;  width: auto; height: 770px;">
+      <div class="slider-con-game w-100" style="background-image: url('assets/image/banner-overlay-img-game.png');  background-size: 100vw auto;  width: auto; height: 53.9vw;">
          <div class="container">
             <div class="Cyber-Security-right-heading-con d-flex flex-column align-items-center text-center">
                <img src="assets/image/lil_banner3.jpg" alt="幸福理財遊戲島" class="img-fluid" style="max-width: 300px;"><br>
@@ -237,7 +246,7 @@
             <div class="partner-box text-center">
                <a href="https://pse.is/56zflx" target="_blank">
                   <figure class="mb-0">
-                     <img src="assets/image/slider-item-img9.png" alt="" class="img-fluid" style="max-width: 545px;">
+                     <img src="assets/image/slider-item-img9.png" alt="" class="img-fluid" style="max-width: 545px; width: 37.8vw;">
                   </figure>
                </a>
             </div>            
@@ -248,7 +257,7 @@
    <!---幸福共學島(一)-->
    <div id="05"></div>
    <section >
-      <div class="slider-con-video w-100" style="background-image: url('assets/image/banner-overlay-img-video.png');  background-size: 100vw auto; width: auto; height: 2150px;">
+      <div class="slider-con-video w-100" style="background-image: url('assets/image/banner-overlay-img-video.png');  background-size: 100vw auto; width: auto; height: 147.2vw;">
          <div class="container">
             <div class="Cyber-Security-right-heading-con d-flex flex-column align-items-center text-center" >
                <img src="assets/image/lil_banner4.jpg" alt="幸福共學島(一)" class="img-fluid" style="max-width: 300px;"><br>
@@ -258,48 +267,41 @@
                </h4>
             </div>
             <div style="height: 30px;"></div>
-            <div class="row wow fadeInUp d-flex justify-content-center align-items-center" style="padding-top: 60px;">
-               <div class="row justify-content-center">
-                  <div class="col hidden-sm wow bounceIn" data-wow-delay="0.2s">
-                     <div class="videobox">
-                        <div class="video_relative">
-                           <iframe width="640" height="360" src="https://www.youtube.com/embed/Y71MoYvPm8A"
-                              frameborder="0"
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                              allowfullscreen></iframe>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="row wow fadeInUp d-flex justify-content-center align-items-center" style="padding-top: 60px;">
-               <div class="row justify-content-center">
-                  <div class="col hidden-sm wow bounceIn" data-wow-delay="0.2s">
-                     <div class="videobox">
-                        <div class="video_relative">
-                           <iframe width="640" height="360" src="https://www.youtube.com/embed/cdsRQc17iyA"
-                              frameborder="0"
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                              allowfullscreen></iframe>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="row wow fadeInUp d-flex justify-content-center align-items-center" style="padding-top: 60px;">
-               <div class="row justify-content-center">
-                  <div class="col hidden-sm wow bounceIn" data-wow-delay="0.2s">
-                     <div class="videobox">
-                        <div class="video_relative">
-                           <iframe width="640" height="360" src="https://www.youtube.com/embed/27b5dYCdad0"
-                              frameborder="0"
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                              allowfullscreen></iframe>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
+            <div class="p-choice__slidewrap position-relative">
+               <div class="swiper choiceSwiper position-relative swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                   <div class="swiper-wrapper" id="swiper-wrapper-c48ef98bb8dced5c" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-1460px, 0px, 0px);">
+                       <div class="swiper-slide" role="group" aria-label="1 / 3" style="width: 690px; margin-right: 40px;">
+                           <div class="row justify-content-center mb-5">
+                               <div class="col-md-8 col-12">
+                                   <div class="embed-responsive embed-responsive-16by9">
+                                       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tjRw9F4LtqY?enablejsapi=1&amp;origin=https%3A%2F%2Fweb.cheers.com.tw" data-gtm-yt-inspected-16="true" id="804117244" data-gtm-yt-inspected-22="true" data-gtm-yt-inspected-1867436_322="true" title="【Cheers最佳大學指南】Chapter1 找到目標校系：擴大志願打擊面，避免上榜卻後悔"></iframe>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="swiper-slide swiper-slide-prev" role="group" aria-label="2 / 3" style="width: 690px; margin-right: 40px;">
+                           <div class="row justify-content-center mb-5">
+                               <div class="col-md-8 col-12">
+                                   <div class="embed-responsive embed-responsive-16by9">
+                                       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qDnHuUzFVMI?enablejsapi=1&amp;origin=https%3A%2F%2Fweb.cheers.com.tw" data-gtm-yt-inspected-16="true" data-gtm-yt-inspected-22="true" data-gtm-yt-inspected-1867436_322="true" id="325075558" title="【Cheers最佳大學指南】Chapter2 決定選填策略：找出強勢考科組合，成績戰力多5級分"></iframe>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="swiper-slide swiper-slide-active" role="group" aria-label="3 / 3" style="width: 690px; margin-right: 40px;">
+                           <div class="row justify-content-center mb-5">
+                               <div class="col-md-8 col-12">
+                                   <div class="embed-responsive embed-responsive-16by9">
+                                       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OYpufAZh9mo?enablejsapi=1&amp;origin=https%3A%2F%2Fweb.cheers.com.tw" data-gtm-yt-inspected-16="true" data-gtm-yt-inspected-22="true" data-gtm-yt-inspected-1867436_322="true" id="816452064" title="【Cheers最佳大學指南】Chapter3 避開超額篩選：掌握遊戲規則，挺進甄試榜單"></iframe>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                   <div class="swiper-button-prev-unique" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-c48ef98bb8dced5c" aria-disabled="false">HERE</div>
+                   <div class="swiper-button-next-unique" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-c48ef98bb8dced5c" aria-disabled="false">THERE</div>
+           </div>
          </div>
       </div>
    </section>
@@ -688,6 +690,12 @@
    <script src="assets/js/wow.js"></script>
    <script>
       new WOW().init();
+      var swiper = new Swiper('.choiceSwiper', {
+         navigation: {
+            prevEl: '.swiper-button-prev-unique',
+            nextEl: '.swiper-button-next-unique',
+         },
+      });
    </script>
    <script src="assets/js/jquery-3.6.0.min.js"> </script>
    <script src="assets/js/popper.min.js"> </script>
