@@ -94,4 +94,24 @@
   background-color: #62aa9c; /* Replace with your desired color */
 }
 
-/* 下拉式選單 */
+/* 關於理財周刊 計數效果 */
+#counter {
+  font-weight: bold;
+  color: #ee1818;
+}
+
+/* 右邊廣告欄位 */
+.fixed-icon-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advertisement {
+  margin-bottom: 10px; /* 你可以調整這個值來設置圖標之間的距離 */
+}
+
+/* window螢幕 */
+#dynamicDiv {
+  display: none;
+}

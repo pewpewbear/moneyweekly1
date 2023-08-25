@@ -90,7 +90,7 @@ body{
 
 .header-and-banner-con::after {
     content: "";
-    background: url(../image/banner-overlay-img.png) no-repeat center;
+    background: url(../image/banner-overlay-img.jpg) no-repeat center;
     background-size: 100% auto; /* Adjusted property */
     width: 100vw;
     height: calc(100vw * (1280 / 1920)); /* Adjusted property */
@@ -107,7 +107,7 @@ body{
     position: relative;
 }
 .slider-con-example::after {
-    background-image: url(../image/banner-overlay-img-example.png) no-repeat center  !important;
+    background-image: url(../image/banner-overlay-img-example.jpg) no-repeat center  !important;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -124,7 +124,7 @@ body{
     position: relative;
 }
 .slider-con-celebrity::after {
-    background-image: url(../image/banner-overlay-img-celebrity.png) no-repeat center  !important;
+    background-image: url(../image/banner-overlay-img-celebrity.jpg) no-repeat center  !important;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -141,7 +141,7 @@ body{
     position: relative;
 }
 .slider-con-game::after {
-    background-image: url(../image/banner-overlay-img-game.png) no-repeat center  !important;
+    background-image: url(../image/banner-overlay-img-game.jpg) no-repeat center  !important;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -297,12 +297,12 @@ body{
       .trending-topic .trending-topic-item:before {
         display: none; } }
   /* ========================================= */
-/*大哉問*/
-.slider-con-question{
+/*關於理財周刊*/
+.slider-con-about{
     position: relative;
 }
-.slider-con-question::after {
-    background-image: url(../image/banner-overlay-img-question.png) no-repeat center  !important;
+.slider-con-about::after {
+    background-image: url(../image/banner-overlay-img-about.png) no-repeat center  !important;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -310,8 +310,8 @@ body{
     position:absolute;
     top: 0;
   }
-  .slider-con-question{
-    padding-top: 100px;
+  .slider-con-about{
+    padding-top: 80px;
 }
 /*製作團隊*/
 .slider-con-team{
@@ -337,7 +337,7 @@ body{
 }
 .header-and-banner-con-mobile::after{
     content: "";
-    background: url(../image/banner-overlay-img-mobile.png) no-repeat center;
+    background: url(../image/.png) no-repeat center;
     background-size: cover;
     width: 100vw;
     position:absolute;
@@ -346,11 +346,38 @@ body{
 .header-and-banner-con-mobile{
     padding-top: 60px;
 }
-/*名人專訪*/
-.slider-con-celebrity-mobile{
+
+.banner-main-con-mobile::after{
+    content: "";
+    background: url(../image/.png) no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    position:absolute;
+    top: 0;
+}
+
+/*理周島民PTT*/
+.slider-con-example-mobile{
     position: relative;
 }
-.slider-con-celebrity-mobile::after {
+.slider-con-example-mobile::after {
+    background-image: url(../image/banner-overlay-img-example-mobile.png) no-repeat center  !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+  }
+  .slider-con-example-mobile{
+    padding-top: 50px;
+}
+
+/*名人幸福知識島*/
+.slider-con-example-mobile{
+    position: relative;
+}
+.slider-con-example-mobile::after {
     background-image: url(../image/banner-overlay-img-celebrity-mobile.png) no-repeat center  !important;
     background-size: cover;
     background-repeat: no-repeat;
@@ -359,10 +386,28 @@ body{
     position:absolute;
     top: 0;
   }
-  .slider-con-celebrity-mobile{
+  .slider-con-example-mobile{
     padding-top: 50px;
 }
-/*名人跟你說*/
+
+/*幸福理財遊戲島*/
+.slider-con-game-mobile{
+    position: relative;
+}
+.slider-con-game-mobile::after {
+    background-image: url(../image/banner-overlay-img-game-mobile.png) no-repeat center  !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+  }
+  .slider-con-game-mobile{
+    padding-top: 50px;
+}
+
+/*幸福共學島(一)*/
 .slider-con-video-mobile{
     position: relative;
 }
@@ -376,9 +421,9 @@ body{
     top: 0;
   }
 .slider-con-video-mobile{
-    padding-top: 50px;
+    padding-top: 170px;
 }
-/*精選文章*/
+/*幸福共學島(二)*/
 .slider-con-article-mobile{
     position: relative;
 }
@@ -394,12 +439,12 @@ body{
 .slider-con-article-mobile{
     padding-top: 50px;
 }
-/*大哉問*/
-.slider-con-question-mobile{
+/*關於理財周刊*/
+.slider-con-about-mobile{
     position: relative;
 }
-.slider-con-question-mobile::after {
-    background-image: url(../image/banner-overlay-img-question-mobile.png) no-repeat center  !important;
+.slider-con-about-mobile::after {
+    background-image: url(../image/banner-overlay-img-about-mobile.png) no-repeat center  !important;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -407,8 +452,8 @@ body{
     position:absolute;
     top: 0;
   }
-  .slider-con-question-mobile{
-    padding-top: 100px;
+.slider-con-about-mobile{
+    padding-top: 20px;
 }
 /*製作團隊*/
 .slider-con-team-mobile{
@@ -481,7 +526,7 @@ body{
     background:none;
 }
 .partner-box:hover figure img{
-    transition: transform 0.5s  ease-in-out;
+    transition: transform 0.1s  ease-in-out;
 }
 /*slider-section*/
 /*information-main-section*/

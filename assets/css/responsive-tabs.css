@@ -14,14 +14,14 @@
 	text-align: center;
 	list-style-type: none;
 	position: relative;
-	background-color: #eb6452;
+	background-color: #E08CAB;
 }
 .tabstyle-7 .responsive-tabs li {
 	width:33%;
 	text-align: center;
 	line-height: 50px;
 	padding: 0;
-	background-color: #eb6452;
+	background-color: #E08CAB;
 	float: left;
 }
 
@@ -41,7 +41,7 @@
 	background-color:#fff;
 }
 .tabstyle-7 .responsive-tabs li a:hover, .tabstyle-7 .responsive-tabs li.active, .tabstyle-7 .responsive-tabs li.active a {
-	color: #eb6452;
+	color: #D684A3;
 	background-color: #fff;
 	box-shadow: 0 5px 5px  rgba(0, 0, 0, 0.5);
 }

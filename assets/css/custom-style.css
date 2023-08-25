@@ -718,5 +718,12 @@ a.item-link{margin-top: 20px; display: inline-block}
 		align-items: center;
 		justify-content: flex-end;
 	  }
-	  
+}
+
+body {
+	z-index: 1 ;
+  }
+
+.navbar {
+	z-index: 999999 !important;
 }
