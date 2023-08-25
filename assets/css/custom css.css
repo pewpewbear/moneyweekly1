@@ -116,8 +116,18 @@
   display: none;
 }
 
+@media (max-width: 480px) {
+  .sec_05 {
+    height: 0vw;
+  }
+}
+
 @media (max-width: 768px) {
   .sec_05 {
-    height: 20vw;
+    height: 10vw;
   }
+}
+
+.sec_05 {
+  height: 20vw;
 }
