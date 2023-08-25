@@ -115,3 +115,9 @@
 #dynamicDiv {
   display: none;
 }
+
+@media (max-width: 768px) {
+  .sec_05 {
+    height: 20vw;
+  }
+}
