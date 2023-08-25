@@ -117,17 +117,29 @@
 }
 
 @media (max-width: 480px) {
+  .sec_02 {
+    height: 0vw;
+  }
   .sec_05 {
     height: 0vw;
+  }
+  .sec_07 {
+    height: 5vw;
   }
 }
 
 @media (max-width: 768px) {
   .sec_05 {
-    height: 10vw;
+    height: 0vw;
   }
 }
 
+.sec_02 {
+  height: 10vw;
+}
 .sec_05 {
-  height: 20vw;
+  height: 5vw;
+}
+.sec_07 {
+  height: 10vw;
 }
